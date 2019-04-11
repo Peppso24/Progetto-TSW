@@ -18,3 +18,24 @@ background-color : #EC8D93;
   width:100%;
   height: 60px;
 }
+
+
+a:link,a:visited {
+  color: white;
+  background-color: #EC8D93;
+  padding: 12px 15px;
+  text-align:center;
+  margin-left:60%;
+}
+
+/* mouse over link */
+a:hover {
+  color: white-space;
+  background-color: white-space;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+  background-color: white-space;
+}
