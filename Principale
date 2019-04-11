@@ -2,13 +2,15 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>qualcosa</title>
-  </head>
-  <body>
-  
-  <ul>
-  <li> Ciao </li>
-  </ul>
-    
-  </body>
+    <title>Local Sweets</title>
+	  <link href="./style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+	<div class="navbar">
+		<img src="logo.jpg" alt=”picture” height=100% width="350"/>
+		<a href='catalogo.html'>Catalogo</button>
+	</div>
+</body>
 </html>
