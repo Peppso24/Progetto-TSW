@@ -1,12 +1,22 @@
-body {
-  padding: 0px;
-  margin: 0px;
+body{
+	margin:0;
+	
+}
+h1{
+	color:red;
+	margin:500px;
+	
+}
+p{
+	color:blue;
+	margin-left: 50px;
 }
 
 .container {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+  
 }
 
 .navbar {
@@ -22,20 +32,40 @@ background-color : #EC8D93;
 
 a:link,a:visited {
   color: white;
-  background-color: #EC8D93;
-  padding: 12px 15px;
-  text-align:center;
-  margin-left:60%;
+  /*background-color: #EC8D93;*/
+
+  
 }
 
 /* mouse over link */
 a:hover {
-  color: white-space;
+  color: black;
   background-color: white-space;
+  
+ 
 }
 
 /* selected link */
 a:active {
   color: blue;
   background-color: white-space;
+
+
+}
+
+a.but:link,a.but:visited{
+	padding:15px 25px;
+	position:relative;
+  	top:-25px;
+  	left:45%;
+}
+
+a.but:hover
+{
+	padding:15px 25px;
+}
+
+a.but:active
+{
+	padding:15px 25px;
 }
