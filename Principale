@@ -6,11 +6,15 @@
 	  <link href="./style.css" type="text/css" rel="stylesheet">
 </head>
 
-<body>
-  <div class="container">
+<body background="sfondo.jpg">
+<div class="container">
 	<div class="navbar">
-		<img src="logo.jpg" alt=”picture” height=100% width="350"/>
-		<a href='./catalogo.html'>Catalogo</button>
+		<a href='./home.html'><img src="logo.jpg" alt="picture" height=100% width="350"/></a>
+		<a class="but" href='./catalogo.html'>Catalogo</a>
+		<a class="but" href="#">Chi Siamo</a>
+  	    <a class="but" href="#">Contatti</a>
+    	<a class="but" href="#">Login</a>
 	</div>
+</div>
 </body>
 </html>
